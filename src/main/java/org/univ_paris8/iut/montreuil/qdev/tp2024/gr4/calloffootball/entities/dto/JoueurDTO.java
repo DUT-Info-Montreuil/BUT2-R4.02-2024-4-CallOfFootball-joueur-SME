@@ -24,40 +24,8 @@ public class JoueurDTO {
         return nom;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
-
     public String getPseudo() {
         return pseudo;
-    }
-
-    public void setPseudo(String pseudo) {
-        this.pseudo = pseudo;
-    }
-
-    public int getAnnéeNaissance() {
-        return annéeNaissance;
-    }
-
-    public void setAnnéeNaissance(int annéeNaissance) {
-        this.annéeNaissance = annéeNaissance;
-    }
-
-    public Enum getLangues() {
-        return langues;
-    }
-
-    public void setLangues(Enum langues) {
-        this.langues = langues;
-    }
-
-    public List<String> getCentreInteret() {
-        return centreInteret;
-    }
-
-    public void setCentreInteret(List<String> centreInteret) {
-        this.centreInteret = centreInteret;
     }
 
     @Override
