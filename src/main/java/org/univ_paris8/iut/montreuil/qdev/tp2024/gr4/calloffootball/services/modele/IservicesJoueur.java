@@ -9,5 +9,6 @@ import java.util.List;
 
 public interface IservicesJoueur {
     public JoueurDTO creerProfilJoueur(String nom, String pseudo, int annéeNaissance, Langues langue, List<String> centreInteret) throws PseudoDejaExistantException, NaissanceInvalideException, LangueException, CentreInteretException;
+
     List<JoueurDTO> obtenirListeJoueurs() throws ListeVideException;
 }
