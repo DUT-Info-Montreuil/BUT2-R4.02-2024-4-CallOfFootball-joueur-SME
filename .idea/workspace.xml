@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be7b7917-f002-49be-9fa9-daa1ddd595ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/entities/dto/JoueurDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/impl/ServiceJoueur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/modele/IservicesJoueur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/utlie/enums/Langues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/utlie/exception/CentreInteretException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/utlie/exception/LangueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/utlie/exception/ListeVideException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/utlie/exception/NaissanceInvalideException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/utlie/exception/PseudoDejaExistantException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockListeVide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockListeVideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockNaissance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockNaissanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockPseudoIdentique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockPseudoIdentiqueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/entities/dto/yoyo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/impl/cmoiwsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/modele/yomec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/pourpush" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/impl/ServiceJoueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/impl/ServiceJoueur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/modele/IservicesJoueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/modele/IservicesJoueur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

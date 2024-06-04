@@ -8,6 +8,6 @@ import org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.utlie.except
 import java.util.List;
 
 public interface IservicesJoueur {
-    public JoueurDTO ajouterJoueur(String nom, String pseudo, int annéeNaissance, Langues langue, List<String> centreInteret) throws PseudoDejaExistantException, NaissanceInvalideException, LangueException, CentreInteretException;
+    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int annéeNaissance, Langues langue, List<String> centreInteret) throws PseudoDejaExistantException, NaissanceInvalideException, LangueException, CentreInteretException;
     List<JoueurDTO> obtenirListeJoueurs() throws ListeVideException;
 }

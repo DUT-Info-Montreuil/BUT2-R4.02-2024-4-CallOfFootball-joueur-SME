@@ -26,7 +26,7 @@ public class ServiceJoueur implements IservicesJoueur {
     }
 
     @Override
-    public JoueurDTO ajouterJoueur(String nom, String pseudo, int anneeNaissance, Langues langue, List<String> centresInteret) throws PseudoDejaExistantException, NaissanceInvalideException, LangueException, CentreInteretException {
+    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int anneeNaissance, Langues langue, List<String> centresInteret) throws PseudoDejaExistantException, NaissanceInvalideException, LangueException, CentreInteretException {
         if (joueursDTO.stream().anyMatch(joueur -> joueur.getPseudo().equals(pseudo))) {
             throw new PseudoDejaExistantException("Le pseudo choisi est déjà utilisé par un autre joueur.");
         }
