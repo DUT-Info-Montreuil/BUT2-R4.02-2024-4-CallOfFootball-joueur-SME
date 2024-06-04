@@ -3,6 +3,7 @@ package org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.impl;
 import org.junit.Before;
 import org.junit.Test;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.entities.dto.JoueurDTO;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.services.impl.ServiceJoueur;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.services.modele.IservicesJoueur;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.utlie.enums.Langues;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.utlie.exception.*;
@@ -18,8 +19,9 @@ public class ServiceJoueurMockNaissanceTest {
 
     @Before
     public void setUp() {
-        // service = ServicesJoueur.getInstance();
-        service = new ServiceJoueurMockNaissance();
+        service = ServiceJoueur.getInstance();
+
+        //service = new ServiceJoueurMockNaissance();
     }
 
     @Test

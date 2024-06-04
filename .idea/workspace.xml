@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be7b7917-f002-49be-9fa9-daa1ddd595ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/impl/ServiceJoueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/impl/ServiceJoueur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/modele/IservicesJoueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/modele/IservicesJoueur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockListeVideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockListeVideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockNaissanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockNaissanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockPseudoIdentiqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockPseudoIdentiqueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/impl/ServiceJoueur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/impl/ServiceJoueur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/modele/IservicesJoueur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/services/modele/IservicesJoueur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockListeVide.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockListeVide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockListeVideTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockListeVideTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockNaissance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockNaissance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockNaissanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockNaissanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockPseudoIdentique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockPseudoIdentique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockPseudoIdentiqueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr4/calloffootball/impl/ServiceJoueurMockPseudoIdentiqueTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +53,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ServiceJoueurMockListeVideTest">
+  <component name="RunManager" selected="JUnit.ServiceJoueurMockListeVideTest.testAjouterEtObtenirJoueur">
     <configuration name="ServiceJoueurMockListeVideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Joueurs-SME" />
       <extension name="coverage">
@@ -55,6 +65,22 @@
       <option name="PACKAGE_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.impl" />
       <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.impl.ServiceJoueurMockListeVideTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceJoueurMockListeVideTest.testAjouterEtObtenirJoueur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Joueurs-SME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr4.calloffootball.impl.ServiceJoueurMockListeVideTest" />
+      <option name="METHOD_NAME" value="testAjouterEtObtenirJoueur" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,9 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServiceJoueurMockListeVideTest.testAjouterEtObtenirJoueur" />
+        <item itemvalue="JUnit.ServiceJoueurMockPseudoIdentiqueTest" />
         <item itemvalue="JUnit.ServiceJoueurMockListeVideTest" />
         <item itemvalue="JUnit.ServiceJoueurMockNaissanceTest" />
-        <item itemvalue="JUnit.ServiceJoueurMockPseudoIdentiqueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -132,5 +159,16 @@
       <updated>1717484871394</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
