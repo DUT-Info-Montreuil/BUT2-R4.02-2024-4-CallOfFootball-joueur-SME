@@ -26,13 +26,13 @@ public class ServiceJoueur implements IservicesJoueur {
     }
 
     @Override
-    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int anneeNaissance, Langues langue, List<String> centresInteret) throws PseudoDejaExistantException, NaissanceInvalideException, LangueException, CentreInteretException {
+    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int naissance, Langues langue, List<String> centresInteret) throws PseudoDejaExistantException, NaissanceInvalideException, LangueException, CentreInteretException {
         if (joueursDTO.stream().anyMatch(joueur -> joueur.getPseudo().equals(pseudo))) {
             throw new PseudoDejaExistantException("Le pseudo choisi est déjà utilisé par un autre joueur.");
         }
 
-        if (anneeNaissance < 1900 || anneeNaissance > LocalDate.now().getYear()) {
-            throw new NaissanceInvalideException("L'année de naissance " + anneeNaissance + " est invalide.");
+        if (naissance < 1900 || naissance > LocalDate.now().getYear()) {
+            throw new NaissanceInvalideException("L'année de naissance " + naissance + " est invalide.");
         }
 
         if (langue == null) {
@@ -43,13 +43,13 @@ public class ServiceJoueur implements IservicesJoueur {
             throw new CentreInteretException("La liste des centres d'intérêt ne peut pas être vide.");
         }
 
-        JoueurDTO nouveauJoueur = new JoueurDTO(nom, pseudo, anneeNaissance, langue, centresInteret);
+        JoueurDTO nouveauJoueur = new JoueurDTO(nom, pseudo, naissance, langue, centresInteret);
         joueursDTO.add(nouveauJoueur);
         return nouveauJoueur;
     }
 
     @Override
-    public ArrayList<JoueurDTO> obtenirListeJoueurs() throws ListeVideException {
+    public ArrayList<JoueurDTO> ListJoueurs() throws ListeVideException {
         if (joueursDTO.isEmpty()) {
             throw new ListeVideException("La liste des joueurs est vide.");
         }

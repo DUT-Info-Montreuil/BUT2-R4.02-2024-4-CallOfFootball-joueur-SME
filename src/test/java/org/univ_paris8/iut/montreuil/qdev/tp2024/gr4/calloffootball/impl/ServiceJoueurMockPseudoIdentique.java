@@ -16,16 +16,16 @@ public class ServiceJoueurMockPseudoIdentique implements IservicesJoueur {
     private List<String> pseudosUtilises = new ArrayList<>();
 
     @Override
-    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int anneeNaissance, Langues langue, List<String> centreInteret) throws PseudoDejaExistantException {
+    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int naissance, Langues langue, List<String> centreInteret) throws PseudoDejaExistantException {
         if (pseudosUtilises.contains(pseudo)) {
             throw new PseudoDejaExistantException("Le pseudo choisi est déjà utilisé par un autre joueur.");
         }
         pseudosUtilises.add(pseudo);
-        return new JoueurDTO(nom, pseudo, anneeNaissance, langue, centreInteret);
+        return new JoueurDTO(nom, pseudo, naissance, langue, centreInteret);
     }
 
     @Override
-    public List<JoueurDTO> obtenirListeJoueurs() throws ListeVideException {
+    public List<JoueurDTO> ListJoueurs() throws ListeVideException {
         return null;
     }
 

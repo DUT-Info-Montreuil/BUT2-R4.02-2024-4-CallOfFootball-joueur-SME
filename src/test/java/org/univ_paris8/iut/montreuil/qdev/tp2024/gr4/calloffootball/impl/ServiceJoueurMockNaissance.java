@@ -13,16 +13,16 @@ public class ServiceJoueurMockNaissance implements IservicesJoueur {
 
 
     @Override
-    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int annéeNaissance, Langues langue, List<String> centreInteret) throws NaissanceInvalideException {
-        if (annéeNaissance < 1900 || annéeNaissance > java.time.Year.now().getValue()) {
-            throw new NaissanceInvalideException("L'année de naissance " + annéeNaissance + " est invalide.");
+    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int naissance, Langues langue, List<String> centreInteret) throws NaissanceInvalideException {
+        if (naissance < 1900 || naissance > java.time.Year.now().getValue()) {
+            throw new NaissanceInvalideException("L'année de naissance " + naissance + " est invalide.");
         }
 
-        return new JoueurDTO(nom, pseudo, annéeNaissance, langue, centreInteret);
+        return new JoueurDTO(nom, pseudo, naissance, langue, centreInteret);
     }
 
     @Override
-    public ArrayList<JoueurDTO> obtenirListeJoueurs() throws ListeVideException {
+    public ArrayList<JoueurDTO> ListJoueurs() throws ListeVideException {
         return null;
     }
 }

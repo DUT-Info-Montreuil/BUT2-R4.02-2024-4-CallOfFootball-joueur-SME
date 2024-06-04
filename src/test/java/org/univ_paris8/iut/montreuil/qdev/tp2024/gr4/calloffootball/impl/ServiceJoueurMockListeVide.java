@@ -13,14 +13,14 @@ public class ServiceJoueurMockListeVide implements IservicesJoueur {
     private ArrayList<JoueurDTO> joueursDTO = new ArrayList<>();
 
     @Override
-    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int annéeNaissance, Langues langue, List<String> centreInteret) {
-        JoueurDTO joueur = new JoueurDTO(nom, pseudo, annéeNaissance, langue, centreInteret);
+    public JoueurDTO creerProfilJoueur(String nom, String pseudo, int naissance, Langues langue, List<String> centreInteret) {
+        JoueurDTO joueur = new JoueurDTO(nom, pseudo, naissance, langue, centreInteret);
         joueursDTO.add(joueur);
         return joueur;
     }
 
     @Override
-    public ArrayList<JoueurDTO> obtenirListeJoueurs() throws ListeVideException {
+    public ArrayList<JoueurDTO> ListJoueurs() throws ListeVideException {
         if (joueursDTO.isEmpty()) {
             throw new ListeVideException("La liste des joueurs est vide.");
         }
